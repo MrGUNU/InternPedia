@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        }
+        .box{
+            background-color: white;
+            height: 500px;
+            width: 350px;
+            margin-left: 450px;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+        .head{
+            text-align: center;
+            font-size: 30px;
+            color: black;
+            padding-top: 30px;
+            font-family: 'Comfortaa', sans-serif;
+            font-weight: bold;
+        }
+        .frm{
+            margin-left: 50px;
+            font-family: 'Public Sans', sans-serif;
+        }
+        input[type=text],input[type=password]{
+            width: 250px;
+            height: 25px;
+            border: none;
+            border-bottom: 2px  solid;
+        }
+        .frgt-pass{
+            padding-left: 185px;
+            font-family: 'Public Sans', sans-serif;
+        }
+        .frgt-pass a{
+            text-decoration: none;
+        }
+        .login-button{
+            background-color: deeppink;
+            width: 250px;
+            height: 35px;
+            border-radius: 30px;
+            margin-left: 50px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            font-weight: bold;
+        }
+        .text{
+            text-align: center;
+            font-size: 12px;
+        }
+        .btn{
+          text-align: center;
+        }
+        .btn img{
+            height: 40px;
+        }
+        .text1{
+            text-align: center;
+            font-size: 12px;
+        }
+        .signup{
+            text-align: center;
+        }
+        .signup a{
+            text-decoration: none;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="head">
+            Login
+        </div>
+        <br>
+        <div class="frm">
+            <label for="username">Username</label><br>
+            <input type="text"  id="username" required placeholder="Type your username"><br><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" required placeholder="Type  your password"><br>
+        </div>
+        <br>
+        <div class="frgt-pass">
+            <a href="#">Forgot Password?</a>
+        </div>
+        <br>
+        <button class="login-button">
+            Login
+        </button>
+        <br><br>
+        <div class="text">
+            Or Sign Up Using
+        </div>
+        
+        <div class="btn">
+            <a href="#"><img src="icons8-facebook-64.png"></a>
+            <a href="#"><img src="icons8-twitterx-64.png"></a>
+            <a href="#"><img src="icons8-google-64.png"></a>
+        </div>
+        <br><br><br>
+        <div class="text1">
+            Or Sign Up Using
+        </div>
+        <div class="signup">
+            <a href="Registration.html">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>

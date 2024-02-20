@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        }
+        .head{
+            text-align: center;
+            font-size: 25px;
+            color: black;
+            padding-top: 30px;
+            font-family: 'Comfortaa', sans-serif;
+            font-weight: bold;
+        }
+        .box{
+            background-color: white;
+            height: 500px;
+            width: 350px;
+            margin-left: 450px;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+        .frm{
+            margin-left: 50px;
+            font-family: 'Public Sans', sans-serif;
+            padding-top: 30px;
+        }
+        input[type=text],input[type=password]{
+            width: 250px;
+            height: 25Spx;
+            border: none;
+            border-bottom: 2px  solid;
+        }
+        #lo{
+            text-decoration: none;
+           
+            margin-left: 110px;
+        }
+        .login-button{
+            background-color: deeppink;
+            width: 250px;
+            height: 35px;
+            border-radius: 30px;
+            margin-left: 5px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+        <div class="box">
+            <div class="head">
+                Registration Form
+            </div>
+            <div class="frm">
+                <form>
+                    <label>Name</label><br>
+                    <input type="text" name="name" placeholder="Enter your Name">
+                    <br>
+                    <br>
+                    <label for="email">E-mail</label><br>
+                    <input type="text" name="email" placeholder="Enter your email">
+                    <br>
+                    <br>
+                    <label>Set Username</label><br>
+                    <input type="text" name="username" placeholder="Set Username">
+                    <br>
+                    <br>
+                    <label>Set Password</label><br>
+                    <input type="password" name="password" placeholder="Set Password">
+                    <br>
+                    <br>
+                    <br>
+                    <button class="login-button">
+                        Register
+                    </button>
+                    <br><br><br>
+                    <a href="LoginPage.html" id="lo" >Login</a>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
